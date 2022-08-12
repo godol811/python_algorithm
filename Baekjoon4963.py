@@ -1,7 +1,7 @@
 import sys
 #  출력전 런타임에러를 막기 위해 limit을 정해둠
 
-sys.setrecursionlimit(10**6)
+sys.setrecursionlimit(10**6) #10의 6승
 
 #  DFS로 특정한 노드를 방문한 뒤에 연결된 모든 노드들도 방문
 def dfs(x, y):
