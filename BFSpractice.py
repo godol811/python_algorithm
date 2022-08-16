@@ -36,7 +36,8 @@ def bfs(x, y):
                 maze[nx][ny] = maze[x][y] + 1
                 queue.append((nx, ny))
         # 가장 오른쪽 아래 까지의 최단 거리 반환
-        return maze[n-1][m-1]
+    return maze[n - 1][m - 1]
+
 
 # BFS를 수행한 결과 출력
-print(bfs(0,0))
+print(bfs(0, 0))
