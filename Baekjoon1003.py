@@ -1,6 +1,7 @@
 import sys
 
 # 몇개의 숫자를 받아 올지 정하기
+print(ord('a'))
 n = int(sys.stdin.readline().rstrip())
 
 # n 개 만큼 반복문
@@ -18,3 +19,6 @@ for i in range(n):
             zero.append(zero[i - 1] + zero[i - 2])
             one.append(one[i - 1] + one[i - 2])
     print(zero[m], one[m])
+alphabets = [".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---",
+             ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."]
+
